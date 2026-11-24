@@ -13,13 +13,13 @@
   --quiet: #758178;
   --accent: #d8e2d9;
   --accent-text: #18201a;
-  --radius-card: 15px;
-  --radius-control: 9px;
+  --radius-card: 16.5px;
+  --radius-control: 9.9px;
   --ease-out: cubic-bezier(.22, 1, .36, 1);
   --ease-smooth: cubic-bezier(.2, .75, .25, 1);
   font-family: "DM Sans", system-ui, sans-serif;
   scroll-behavior: smooth;
-  scroll-padding-top: 24px;
+  scroll-padding-top: 26.4px;
 }
 
 * { box-sizing: border-box; }
@@ -31,11 +31,8 @@ html {
 }
 
 body {
-  min-height: 90.9091vh;
-  width: 90.9091%;
-  margin: 0 auto;
-  zoom: 1.1;
-
+  min-height: 100vh;
+  margin: 0;
   color: var(--text);
   text-align: center;
   background:
@@ -46,16 +43,14 @@ body {
 }
 
 button, a { font: inherit; }
-
 a {
   color: inherit;
   -webkit-tap-highlight-color: transparent;
 }
-
 button { -webkit-tap-highlight-color: transparent; }
 
 .page-shell {
-  width: min(100% - 56px, 1080px);
+  width: min(100% - 61.6px, 1188px);
   min-height: 100vh;
   margin: 0 auto;
   display: flex;
@@ -67,34 +62,34 @@ button { -webkit-tap-highlight-color: transparent; }
 
 .site-header {
   width: 100%;
-  min-height: 82px;
+  min-height: 90.2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  border-bottom: 1px solid rgba(160, 175, 162, .13);
+  gap: 22px;
+  border-bottom: 1.1px solid rgba(160, 175, 162, .13);
   animation: header-enter .75s var(--ease-out) both;
 }
 
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
+  gap: 9.9px;
   text-decoration: none;
 }
 
 .brand-mark {
   display: grid;
   place-items: center;
-  width: 39px;
-  height: 35px;
-  border: 1px solid #718075;
-  border-radius: 7px;
+  width: 42.9px;
+  height: 38.5px;
+  border: 1.1px solid #718075;
+  border-radius: 7.7px;
   color: #e8eee8;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 13px;
+  font-size: 14.3px;
   font-weight: 700;
-  letter-spacing: -.7px;
+  letter-spacing: -.77px;
   transition:
     background .25s var(--ease-smooth),
     border-color .25s var(--ease-smooth),
@@ -104,33 +99,33 @@ button { -webkit-tap-highlight-color: transparent; }
 .brand:hover .brand-mark {
   background: rgba(216, 226, 217, .07);
   border-color: #9aa99c;
-  transform: translateY(-2px);
+  transform: translateY(-2.2px);
 }
 
 .brand-name {
   color: #aab5ac;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 2.1px;
+  letter-spacing: 2.31px;
 }
 
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 11px;
+  gap: 12.1px;
 }
 
 .catalogue-link {
-  min-height: 39px;
-  padding: 0 13px;
+  min-height: 42.9px;
+  padding: 0 14.3px;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  border: 1px solid var(--line-strong);
+  gap: 8.8px;
+  border: 1.1px solid var(--line-strong);
   border-radius: var(--radius-control);
   color: #dce4dd;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13.2px;
   font-weight: 600;
   transition:
     background .22s var(--ease-smooth),
@@ -143,7 +138,7 @@ button { -webkit-tap-highlight-color: transparent; }
   background: rgba(216, 226, 217, .07);
   border-color: #849487;
   color: #fff;
-  transform: translateY(-2px);
+  transform: translateY(-2.2px);
 }
 
 .catalogue-link:active {
@@ -151,17 +146,17 @@ button { -webkit-tap-highlight-color: transparent; }
 }
 
 .install-button {
-  min-height: 39px;
-  padding: 0 14px;
+  min-height: 42.9px;
+  padding: 0 15.4px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  border: 1px solid var(--accent);
+  gap: 8.8px;
+  border: 1.1px solid var(--accent);
   border-radius: var(--radius-control);
   color: var(--accent-text);
   background: var(--accent);
-  font-size: 12px;
+  font-size: 13.2px;
   font-weight: 700;
   cursor: pointer;
   transition:
@@ -171,9 +166,9 @@ button { -webkit-tap-highlight-color: transparent; }
 }
 
 .install-button:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2.2px);
   background: #e7eee7;
-  box-shadow: 0 5px 16px rgba(0, 0, 0, .15);
+  box-shadow: 0 5.5px 17.6px rgba(0, 0, 0, .15);
 }
 
 .install-button:active {
@@ -189,8 +184,8 @@ button { -webkit-tap-highlight-color: transparent; }
 }
 
 .install-button svg {
-  width: 15px;
-  height: 15px;
+  width: 16.5px;
+  height: 16.5px;
   fill: none;
   stroke: currentColor;
   stroke-width: 1.7;
@@ -207,12 +202,12 @@ button { -webkit-tap-highlight-color: transparent; }
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 76px 0 92px;
+  padding: 83.6px 0 101.2px;
 }
 
 .intro-copy {
   width: 100%;
-  margin: 0 0 39px;
+  margin: 0 0 42.9px;
   text-align: center;
   animation: content-enter .85s .08s var(--ease-out) both;
 }
@@ -221,39 +216,39 @@ button { -webkit-tap-highlight-color: transparent; }
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 9px;
-  margin: 0 0 18px;
+  gap: 9.9px;
+  margin: 0 0 19.8px;
   color: #aab7ac;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 2.2px;
 }
 
 .status-dot {
-  width: 7px;
-  height: 7px;
-  flex: 0 0 7px;
+  width: 7.7px;
+  height: 7.7px;
+  flex: 0 0 7.7px;
   border-radius: 50%;
   background: #91a794;
-  box-shadow: 0 0 0 4px rgba(145, 167, 148, .1);
+  box-shadow: 0 0 0 4.4px rgba(145, 167, 148, .1);
 }
 
 h1, h2, p { margin-top: 0; }
 
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 16.5px;
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(38px, 6vw, 62px);
+  font-size: clamp(41.8px, 6.6vw, 68.2px);
   line-height: 1.06;
-  letter-spacing: -2.8px;
+  letter-spacing: -3.08px;
   font-weight: 600;
 }
 
 .intro-description {
-  max-width: 560px;
+  max-width: 616px;
   margin: 0 auto;
   color: var(--muted);
-  font-size: 15px;
+  font-size: 16.5px;
   line-height: 1.6;
 }
 
@@ -263,17 +258,17 @@ h1 {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  gap: 17.6px;
 }
 
 .game-card {
-  min-height: 224px;
-  padding: 21px 22px 18px;
+  min-height: 246.4px;
+  padding: 23.1px 24.2px 19.8px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid var(--line);
+  border: 1.1px solid var(--line);
   border-radius: var(--radius-card);
   background: linear-gradient(145deg, rgba(37, 46, 40, .92), rgba(29, 35, 31, .96));
   text-align: center;
@@ -293,12 +288,12 @@ h1 {
 .game-card:hover {
   border-color: #78877b;
   background: var(--surface-hover);
-  transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, .13);
+  transform: translateY(-4.4px);
+  box-shadow: 0 13.2px 30.8px rgba(0, 0, 0, .13);
 }
 
 .game-card:active {
-  transform: translateY(-1px) scale(.985);
+  transform: translateY(-1.1px) scale(.985);
   box-shadow: none;
 }
 
@@ -308,19 +303,19 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 13.2px;
 }
 
 .game-index {
   color: var(--quiet);
-  font-size: 9px;
+  font-size: 9.9px;
   font-weight: 700;
-  letter-spacing: 1.6px;
+  letter-spacing: 1.76px;
 }
 
 .card-arrow {
   color: #a8b4aa;
-  font-size: 19px;
+  font-size: 20.9px;
   line-height: 1;
   transition:
     color .2s var(--ease-smooth),
@@ -329,7 +324,7 @@ h1 {
 
 .game-card:hover .card-arrow {
   color: #e2e9e3;
-  transform: translate(3px, -3px);
+  transform: translate(3.3px, -3.3px);
 }
 
 .card-main {
@@ -337,18 +332,18 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 13px;
-  padding: 18px 0 20px;
+  gap: 14.3px;
+  padding: 19.8px 0 22px;
 }
 
 .game-icon {
-  width: 54px;
-  height: 54px;
-  flex: 0 0 54px;
+  width: 59.4px;
+  height: 59.4px;
+  flex: 0 0 59.4px;
   display: grid;
   place-items: center;
-  border: 1px solid #48554b;
-  border-radius: 12px;
+  border: 1.1px solid #48554b;
+  border-radius: 13.2px;
   background: rgba(10, 15, 11, .16);
   transition:
     border-color .25s var(--ease-smooth),
@@ -359,12 +354,12 @@ h1 {
 .game-card:hover .game-icon {
   border-color: #718174;
   background: rgba(10, 15, 11, .28);
-  transform: translateY(-2px);
+  transform: translateY(-2.2px);
 }
 
 .game-icon svg {
-  width: 34px;
-  height: 34px;
+  width: 37.4px;
+  height: 37.4px;
   fill: none;
   stroke: #c6d1c8;
   stroke-width: 1.5;
@@ -373,78 +368,78 @@ h1 {
 }
 
 .card-main h2 {
-  margin: 0 0 5px;
+  margin: 0 0 5.5px;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 27px;
-  letter-spacing: -.8px;
+  font-size: 29.7px;
+  letter-spacing: -.88px;
 }
 
 .card-main p {
   margin: 0;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13.2px;
 }
 
 .card-bottom {
-  padding-top: 15px;
-  border-top: 1px solid rgba(160, 175, 162, .13);
+  padding-top: 16.5px;
+  border-top: 1.1px solid rgba(160, 175, 162, .13);
   color: #c5d0c7;
-  font-size: 11px;
+  font-size: 12.1px;
   font-weight: 600;
 }
 
 .bottom-arrow {
   color: #9cac9e;
-  font-size: 16px;
+  font-size: 17.6px;
   transition: transform .25s var(--ease-out);
 }
 
 .game-card:hover .bottom-arrow {
-  transform: translateX(4px);
+  transform: translateX(4.4px);
 }
 
 /* FOOTER */
 
 .site-footer {
   width: 100%;
-  min-height: 66px;
+  min-height: 72.6px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  padding: 13px 0;
-  border-top: 1px solid rgba(160, 175, 162, .13);
+  gap: 6.6px;
+  padding: 14.3px 0;
+  border-top: 1.1px solid rgba(160, 175, 162, .13);
   color: #a0aaa2;
-  font-size: 11px;
+  font-size: 12.1px;
   font-weight: 600;
   animation: footer-enter .8s .35s var(--ease-out) both;
 }
 
 .footer-version {
   color: #68746b;
-  font-size: 9px;
-  letter-spacing: 1.3px;
+  font-size: 9.9px;
+  letter-spacing: 1.43px;
 }
 
 .footer-version span {
   color: #a0aaa2;
-  margin-left: 5px;
+  margin-left: 5.5px;
 }
 
 /* INSTALL DIALOG */
 
 .install-dialog {
-  width: min(calc(100% - 36px), 390px);
-  padding: 27px;
-  border: 1px solid #465249;
-  border-radius: 16px;
+  width: min(calc(100% - 39.6px), 429px);
+  padding: 29.7px;
+  border: 1.1px solid #465249;
+  border-radius: 17.6px;
   color: var(--text);
   background: #202722;
   text-align: center;
-  box-shadow: 0 24px 80px rgba(0, 0, 0, .5);
+  box-shadow: 0 26.4px 88px rgba(0, 0, 0, .5);
   opacity: 0;
-  transform: translateY(14px) scale(.98);
+  transform: translateY(15.4px) scale(.98);
   transition:
     opacity .25s var(--ease-smooth),
     transform .3s var(--ease-out),
@@ -460,31 +455,31 @@ h1 {
 @starting-style {
   .install-dialog[open] {
     opacity: 0;
-    transform: translateY(14px) scale(.98);
+    transform: translateY(15.4px) scale(.98);
   }
 }
 
 .install-dialog::backdrop {
   background: rgba(5, 8, 6, .72);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(3.3px);
 }
 
 .dialog-close-form {
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 13.2px;
+  right: 13.2px;
 }
 
 .dialog-close {
-  width: 30px;
-  height: 30px;
+  width: 33px;
+  height: 33px;
   display: grid;
   place-items: center;
   border: 0;
   border-radius: 50%;
   color: #aab5ac;
   background: transparent;
-  font-size: 25px;
+  font-size: 27.5px;
   cursor: pointer;
   transition:
     color .2s ease,
@@ -499,35 +494,35 @@ h1 {
 }
 
 .dialog-icon {
-  width: 39px;
-  height: 39px;
+  width: 42.9px;
+  height: 42.9px;
   display: grid;
   place-items: center;
-  margin: 0 auto 17px;
-  border: 1px solid #59685c;
-  border-radius: 10px;
+  margin: 0 auto 18.7px;
+  border: 1.1px solid #59685c;
+  border-radius: 11px;
   color: #dce6dd;
-  font-size: 23px;
+  font-size: 25.3px;
 }
 
 .install-dialog h2 {
-  margin-bottom: 8px;
+  margin-bottom: 8.8px;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 22px;
+  font-size: 24.2px;
 }
 
 .install-dialog p {
-  margin-bottom: 15px;
+  margin-bottom: 16.5px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14.3px;
   line-height: 1.55;
 }
 
 .install-instructions {
-  margin: 0 auto 21px;
+  margin: 0 auto 23.1px;
   padding: 0;
   color: #c5cec7;
-  font-size: 12px;
+  font-size: 13.2px;
   line-height: 1.9;
   list-style-position: inside;
   text-align: center;
@@ -535,9 +530,9 @@ h1 {
 
 .dialog-done {
   width: 100%;
-  min-height: 42px;
+  min-height: 46.2px;
   border: 0;
-  border-radius: 8px;
+  border-radius: 8.8px;
   color: #18201a;
   background: var(--accent);
   font-weight: 700;
@@ -549,7 +544,7 @@ h1 {
 
 .dialog-done:hover {
   background: #e7eee7;
-  transform: translateY(-2px);
+  transform: translateY(-2.2px);
 }
 
 .dialog-done:active {
@@ -560,24 +555,24 @@ h1 {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid #c7d6c9;
-  outline-offset: 4px;
+  outline: 2.2px solid #c7d6c9;
+  outline-offset: 4.4px;
 }
 
 /* PAGE LOAD ANIMATIONS */
 
 @keyframes header-enter {
-  from { opacity: 0; transform: translateY(-12px); }
+  from { opacity: 0; transform: translateY(-13.2px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes content-enter {
-  from { opacity: 0; transform: translateY(18px); }
+  from { opacity: 0; transform: translateY(19.8px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes card-enter {
-  from { opacity: 0; transform: translateY(22px); }
+  from { opacity: 0; transform: translateY(24.2px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
@@ -590,88 +585,88 @@ button:focus-visible {
 
 @media (max-width: 640px) {
   .page-shell {
-    width: min(100% - 36px, 480px);
+    width: min(100% - 39.6px, 528px);
   }
 
   .site-header {
-    min-height: 72px;
-    gap: 10px;
+    min-height: 79.2px;
+    gap: 11px;
   }
 
-  .brand { gap: 7px; }
+  .brand { gap: 7.7px; }
 
   .brand-mark {
-    width: 35px;
-    height: 33px;
-    font-size: 12px;
+    width: 38.5px;
+    height: 36.3px;
+    font-size: 13.2px;
   }
 
   .brand-name {
-    font-size: 9px;
-    letter-spacing: 1.5px;
+    font-size: 9.9px;
+    letter-spacing: 1.65px;
   }
 
-  .header-actions { gap: 7px; }
+  .header-actions { gap: 7.7px; }
 
   .catalogue-link,
   .install-button {
-    min-height: 36px;
-    padding: 0 9px;
-    gap: 5px;
-    font-size: 10px;
+    min-height: 39.6px;
+    padding: 0 9.9px;
+    gap: 5.5px;
+    font-size: 11px;
   }
 
   .install-button svg {
-    width: 13px;
-    height: 13px;
+    width: 14.3px;
+    height: 14.3px;
   }
 
   .main-content {
-    padding: 70px 0 78px;
+    padding: 77px 0 85.8px;
   }
 
-  .intro-copy { margin-bottom: 30px; }
+  .intro-copy { margin-bottom: 33px; }
 
   h1 {
-    font-size: clamp(37px, 10vw, 49px);
-    letter-spacing: -2px;
+    font-size: clamp(40.7px, 11vw, 53.9px);
+    letter-spacing: -2.2px;
   }
 
   .intro-description {
-    max-width: 290px;
+    max-width: 319px;
     margin: 0 auto;
-    font-size: 13px;
+    font-size: 14.3px;
   }
 
   .game-grid {
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 13.2px;
   }
 
   .game-card {
-    min-height: 190px;
-    padding: 18px;
+    min-height: 209px;
+    padding: 19.8px;
   }
 
-  .card-main { padding: 13px 0 16px; }
+  .card-main { padding: 14.3px 0 17.6px; }
 
-  .card-main h2 { font-size: 25px; }
+  .card-main h2 { font-size: 27.5px; }
 }
 
 @media (max-width: 360px) {
   .page-shell {
-    width: calc(100% - 24px);
+    width: calc(100% - 26.4px);
   }
 
   .brand-name { display: none; }
 
   .catalogue-link,
   .install-button {
-    padding: 0 7px;
-    font-size: 9px;
+    padding: 0 7.7px;
+    font-size: 9.9px;
   }
 
-  .header-actions { gap: 5px; }
+  .header-actions { gap: 5.5px; }
 }
 
 /* REDUCED MOTION ACCESSIBILITY */
@@ -699,4 +694,3 @@ button:focus-visible {
     transform: none !important;
   }
   }
-    
