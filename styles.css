@@ -31,10 +31,10 @@ html {
 }
 
 body {
-  min-height: 66.6667vh;
-  width: 66.6667%;
+  min-height: 90.9091vh;
+  width: 90.9091%;
   margin: 0 auto;
-  zoom: 1.5;
+  zoom: 1.1;
 
   color: var(--text);
   text-align: center;
