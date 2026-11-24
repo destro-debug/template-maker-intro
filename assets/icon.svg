@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="104" fill="#171b19"/>
+  <rect x="66" y="66" width="380" height="380" rx="66" fill="#202822" stroke="#718075" stroke-width="12"/>
+  <path d="M124 190h264M256 190v132M164 322h184" fill="none" stroke="#d8e2d9" stroke-width="19" stroke-linecap="round"/>
+  <text x="256" y="165" fill="#f0f3f0" font-family="Arial,sans-serif" font-size="78" font-weight="700" text-anchor="middle" letter-spacing="-5">DST</text>
+</svg>
