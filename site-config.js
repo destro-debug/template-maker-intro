@@ -4,7 +4,7 @@
 */
 window.DST_SITE_CONFIG = {
   mainSkinSiteUrl: "https://dst-skin-site.destroscaloni4.workers.dev/",
-  toe3EditorUrl: "https://REPLACE-WITH-YOUR-TOE3-EDITOR-URL",
+  toe3EditorUrl: "https://template-maker-toe.destroscaloni4.workers.dev/",
   gtoEditorUrl: "https://REPLACE-WITH-YOUR-GTO-EDITOR-URL",
   version: "1.0.0"
 };
